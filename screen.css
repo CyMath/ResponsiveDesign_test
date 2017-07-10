@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,300,700);
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color:#555;
+	margin: 0;
+	padding: 0;
+}
+
+#page {
+	max-width: 1200px;
+	margin:0 auto;
+	position: relative;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+
+h1 {
+	margin: 0 0 1em 0;
+	font-size: 2.8em;
+	font-weight: 700;
+}
+
+h2 {
+	margin: 0 0 .5em 0;
+	font-size: 1.6em;
+	font-weight: 700;
+	line-height: 1.1em;
+}
+
+h3 {
+	margin: 0 0 .5em 0;
+	font-size: 1.3em;
+	font-weight: 700;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+
+#main_image {
+	background: url(images/banner_1200.jpg);
+	height: 430px;
+	width: 1200px;
+}
+
+#hero {
+	position: absolute;
+	width: 42%;
+	top: 130px;
+	left: 55%;
+}
+
+#hero h2 {
+	line-height: 1em;
+	margin: 0 0 30px 0;
+	color: white;
+}
+
+#hero a {
+	padding:10px;
+	border: 1px solid white;
+	color: white;
+	transition: background-color .5s;
+}
+
+#hero a:hover {
+	background-color: rgba(0,0,0,.25);
+}
+
+#content {
+	margin-top: 30px;
+}
+
+section::after {
+	content: "";
+	display: block;
+	clear:both;
+}
+
+section#content {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding: 0;
+}
+
+section#content aside {
+	width:33%;
+	float: left;
+}
+
+#trending {
+	background: url(images/icon_star.svg) no-repeat;
+}
+
+#find {
+	background: url(images/icon_marker.svg) no-repeat;
+}
+
+#tools {
+	background: url(images/icon_gear.svg) no-repeat;
+}
+
+
+
